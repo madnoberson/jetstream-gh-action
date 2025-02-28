@@ -14,6 +14,10 @@ inputs:
     description: "The URL of the NATS Server to connect to"
     required: true
 
+  missing_ok:
+    description: "If the task should complete successfully if the Stream does not exist already"
+    required: false
+
   username:
     description: "The username to connect with"
     required: false
